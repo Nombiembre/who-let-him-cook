@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Informe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@0,700;1,300&display=swap" rel="stylesheet" />
+
+  </head>
+  <body>
+    <header>
+      <div class="header-flex container">
+        <img src="../images/logo.png" alt="" />
+        <nav class="primary-nav">
+          <ul role="list">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../nosotros.html">Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-informe">
+      <aside>
+        <a class="pdf" href="Gestion de Seguridad.pdf" target="_blank">Descargar PDF</a>
+        <a href="#indice">
+          <svg class="up-menu">
+            <use href="../images/up.svg#up" />
+          </svg>
+        </a>
+      </aside>
+
+      <div class="container grid informe">
+        <div class="portada pagina">
+          <h1 class="title-one">Gestión de Seguridad</h1>
+          <p>Juan Pablo Morales, Jhonatan Steven Camacho, Enmanuel Toro Marin</p>
+          <p>Colegio de Ingeniería de Sistemas, Institución Universitaria Colegios de Colombia</p>
+          <p>Sistemas Operativos</p>
+          <p>Uriel Castañeda Sierra</p>
+          <p>29 de Noviembre de 2023</p>
+        </div>
+
+        <div class="pagina indice">
+          <h2 id="indice">Indicé</h2>
+          <ul role="list" class="flow-content">
+            <li>
+              <a href="#definicion"
+                ><div class="indice-flex">
+                  Definición
+                  <span>3</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href="#ecs"
+                ><div class="indice-flex">Estrategias para Control de Seguridad<span>4</span></div>
+              </a>
+              <ul role="list" class="flow-content-small-child">
+                <li>
+                  <a href="#et">
+                    <div class="indice-flex">Estrategias Técnicas<span>4</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#ea">
+                    <div class="indice-flex">Estrategias Administrativas<span>4</span></div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#ef">
+                    <div class="indice-flex">Estrategias Físicas<span>5</span></div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#sps"
+                ><div class="indice-flex">
+                  Servicios de Protección y Seguridad
+                  <span>5</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href="#mcar"
+                ><div class="indice-flex">
+                  Matriz de Control de Acceso a Recursos
+                  <span>7</span>
+                </div></a
+              >
+            </li>
+            <li>
+              <a href="#referencias"
+                ><div class="indice-flex">
+                  Referencias
+                  <span>9</span>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="pagina flow-content definicion">
+          <h2 id="definicion">Definición</h2>
+          <p><span></span>La gestión de seguridad se refiere a las prácticas y medidas implementadas para proteger los sistemas operativos de posibles amenazas y garantizar la integridad, confidencialidad y disponibilidad de los datos y recursos del sistema. Esto implica la implementación de controles de seguridad, como firewalls, antivirus, sistemas de detección de intrusiones, políticas de acceso y autenticación, y la aplicación de parches y actualizaciones de seguridad.</p>
+          <p><span></span>La gestión de seguridad en sistemas operativos es fundamental para proteger los sistemas contra ataques cibernéticos, malware, robo de datos y otras amenazas. También implica la monitorización y el análisis de los registros de seguridad para detectar y responder a posibles incidentes de seguridad.</p>
+          <img src="images/ilustration-one.jpg" alt="" />
+        </div>
+        <div class="pagina flow-content">
+          <h2 id="ecs">Estrategias para Control de Seguridad</h2>
+          <h3 id="et">Estrategias técnicas</h3>
+          <p><span></span>Las estrategias técnicas utilizan la tecnología para proteger los sistemas. Algunos ejemplos de estrategias técnicas incluyen</p>
+          <ul class="padding-left">
+            <li>Controles de acceso: Los controles de acceso limitan el acceso a los sistemas y recursos a los usuarios autorizados. Algunos ejemplos de controles de acceso incluyen contraseñas, autenticación de dos factores y listas de control de acceso (ACL).</li>
+            <li>Cifrado: El cifrado protege la confidencialidad de la información. El cifrado convierte la información en un formato ilegible para los no autorizados.</li>
+            <li>Antivirus y antimalware: El antivirus y el antimalware protegen los sistemas de las amenazas de malware. El malware es software malicioso diseñado para dañar los sistemas informáticos.</li>
+            <li>Firewalls: Los firewalls protegen los sistemas de las amenazas externas. Los firewalls funcionan como una barrera entre la red interna de una organización y la red externa.</li>
+          </ul>
+          <h3 id="ea">Estrategias Administrativas</h3>
+          <p><span></span>Las estrategias administrativas se basan en las personas y los procesos para proteger los sistemas. Algunos ejemplos de estrategias administrativas incluyen:</p>
+          <ul class="padding-left">
+            <li>Educación y capacitación: La educación y capacitación de los empleados sobre la seguridad es esencial para proteger los sistemas. Los empleados deben saber cómo identificar y responder a las amenazas de seguridad.</li>
+            <li>Políticas y procedimientos: Las políticas y procedimientos de seguridad establecen las reglas y pautas para proteger los sistemas. Las políticas y procedimientos deben ser claros y concisos y deben aplicarse de forma consistente.</li>
+          </ul>
+        </div>
+        <div class="pagina flow-content">
+          <ul class="padding-left">
+            <li>Supervisión y auditoría: La supervisión y auditoría de los sistemas es importante para detectar cualquier violación de seguridad. La supervisión y auditoría deben realizarse de forma regular y sistemática.</li>
+          </ul>
+          <h3 id="ef">Estrategias Físicas</h3>
+          <p><span></span>Las estrategias físicas utilizan la seguridad física para proteger los sistemas. Algunos ejemplos de estrategias físicas incluyen:</p>
+          <ul class="padding-left">
+            <li>Seguridad perimetral: La seguridad perimetral protege los sistemas de las amenazas externas. La seguridad perimetral puede incluir muros, cercas, puertas y cerraduras.</li>
+            <li>Control de acceso físico: El control de acceso físico limita el acceso a los sistemas físicos a las personas autorizadas. El control de acceso físico puede incluir sistemas de control de acceso, cámaras de seguridad y guardias de seguridad.</li>
+            <li>Almacenamiento seguro: El almacenamiento seguro protege los sistemas y datos sensibles contra el acceso no autorizado. El almacenamiento seguro puede incluir gabinetes de seguridad, cajas de seguridad y bóvedas.</li>
+          </ul>
+          <h2 id="sps">Servicios de Protección y Seguridad</h2>
+          <p><span></span>Los servicios de protección y seguridad más comunes en los S. O. incluyen:</p>
+          <ul class="padding-left">
+            <li>Controles de acceso: Los controles de acceso limitan el acceso a los recursos del sistema operativo a los usuarios autorizados. Algunos ejemplos de controles de acceso incluyen contraseñas, autenticación de dos factores y listas de control de acceso (ACL).</li>
+            <li>Cifrado: El cifrado protege la confidencialidad de la información. El cifrado convierte la información en un formato ilegible para los no autorizados.</li>
+          </ul>
+        </div>
+        <div class="pagina flow-content">
+          <ul class="padding-left">
+            <li>Antivirus y antimalware: El antivirus y el antimalware protegen el sistema operativo de las amenazas de malware. El malware es software malicioso diseñado para dañar los sistemas informáticos.</li>
+            <li>Firewalls: Los firewalls protegen los sistemas de las amenazas externas. Los firewalls funcionan como una barrera entre la red interna de una organización y la red externa.</li>
+          </ul>
+          <p><span></span>Además de estos servicios básicos, los S. O. modernos también pueden incluir funciones de seguridad más avanzadas, como:</p>
+          <ul class="padding-left">
+            <li>Análisis de comportamiento: El análisis de comportamiento utiliza la inteligencia artificial para detectar actividad maliciosa en el sistema operativo.</li>
+            <li>Ingeniería inversa de malware: La ingeniería inversa de malware permite a los investigadores de seguridad comprender cómo funciona el malware y desarrollar defensas contra él.</li>
+            <li>Contención de amenazas: La contención de amenazas permite aislar las amenazas del resto del sistema operativo para evitar que se propaguen.</li>
+          </ul>
+        </div>
+        <div class="pagina flow-content">
+          <h2 id="mcar">Matriz de Control de Acceso a Recursos</h2>
+          <p><span></span>Una matriz de control de acceso a recursos es una herramienta que se utiliza para definir quién tiene acceso a qué recursos y qué acciones pueden realizarse en esos recursos. Se utiliza para ayudar a garantizar que los recursos se utilicen de manera segura y responsable</p>
+          <ul class="padding-left flow-content-small-child">
+            Las matrices de control de acceso a recursos se basan en los siguientes elementos:
+            <li>Unidades de recursos: Los recursos que se van a proteger. Pueden ser archivos, carpetas, bases de datos, aplicaciones, servidores o cualquier otro recurso al que se acceda de forma electrónica.</li>
+            <li>Usuarios o grupos de usuarios: Las personas o grupos de personas que se van a autorizar a acceder a los recursos.</li>
+            <li>Operaciones: Las acciones que los usuarios pueden realizar en los recursos. Pueden ser acciones de lectura, escritura, ejecución o modificación.</li>
+          </ul>
+          <p><span></span>La matriz de control de acceso a recursos se suele representar como una tabla con tres columnas:</p>
+          <ul class="padding-left">
+            <li>Unidad de recurso: La primera columna identifica el recurso que se va a proteger.</li>
+            <li>Usuario o grupo de usuarios: La segunda columna identifica al usuario o grupo de usuarios que se va a autorizar a acceder al recurso.</li>
+            <li>Operaciones: La tercera columna identifica las operaciones que el usuario o grupo de usuarios puede realizar en el recurso.</li>
+            Ejemplo de matriz de control de acceso a recursos:
+          </ul>
+        </div>
+        <div class="pagina flow-content">
+          <a href="images/matriz-acceso.png" target="_blank"><img src="images/matriz-acceso.png" alt="" /></a>
+          <p><span></span>Las matrices de control de acceso a recursos se pueden utilizar para proteger una amplia gama de recursos, incluidos:</p>
+          <ul class="padding-left flow-content-small">
+            <li>Sistemas operativos: Los sistemas operativos pueden protegerse mediante la restricción del acceso a los archivos de sistema, las carpetas y las aplicaciones.</li>
+            <li>Datos: Los datos confidenciales, como los datos financieros o los datos personales, pueden protegerse mediante la restricción del acceso a las bases de datos, los archivos y los sistemas de almacenamiento.</li>
+            <li>Aplicaciones: Las aplicaciones pueden protegerse mediante la restricción del acceso a las funciones y los datos de la aplicación.</li>
+            <li>Servidores: Los servidores pueden protegerse mediante la restricción del acceso a los archivos, las carpetas y los servicios del servidor.</li>
+          </ul>
+        </div>
+        <div class="pagina flow-content">
+          <h2 id="referencias">Referencias</h2>
+          <p class="apa">
+            Fernández, L. (2023, March 16). Control de acceso: qué es y cómo ayuda a proteger <span>nuestros datos. <i>RedesZone</i>. <a href="https://www.redeszone.net/tutoriales/seguridad/control-de-acceso-que-es/" target="_blank">https://www.redeszone.net/tutoriales/seguridad/control-de-acceso-que-es/</a> </span>
+          </p>
+          <p class="apa">
+            Araujo, A., & Araujo, A. (2023, October 14). Matriz de control de accesos: Qué es y <span>cómo hacerla paso a paso. <i>Hackmetrix</i> Blog. <a href="https://blog.hackmetrix.com/matriz-de-accesos/" target="_blank">https://blog.hackmetrix.com/matriz-de-accesos/</a></span>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
